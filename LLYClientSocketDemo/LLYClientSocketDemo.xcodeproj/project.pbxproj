@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A3765BF1E92554700C1C949 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3765BE1E92554700C1C949 /* main.m */; };
+		0A3765C21E92554700C1C949 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3765C11E92554700C1C949 /* AppDelegate.m */; };
+		0A3765C51E92554700C1C949 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3765C41E92554700C1C949 /* ViewController.m */; };
+		0A3765C81E92554700C1C949 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A3765C61E92554700C1C949 /* Main.storyboard */; };
+		0A3765CA1E92554700C1C949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A3765C91E92554700C1C949 /* Assets.xcassets */; };
+		0A3765CD1E92554700C1C949 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A3765CB1E92554700C1C949 /* LaunchScreen.storyboard */; };
+		0A3765D81E92554700C1C949 /* LLYClientSocketDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3765D71E92554700C1C949 /* LLYClientSocketDemoTests.m */; };
+		0A3765E31E92554700C1C949 /* LLYClientSocketDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3765E21E92554700C1C949 /* LLYClientSocketDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A3765D41E92554700C1C949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A3765B21E92554700C1C949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A3765B91E92554700C1C949;
+			remoteInfo = LLYClientSocketDemo;
+		};
+		0A3765DF1E92554700C1C949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A3765B21E92554700C1C949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A3765B91E92554700C1C949;
+			remoteInfo = LLYClientSocketDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A3765BA1E92554700C1C949 /* LLYClientSocketDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLYClientSocketDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A3765BE1E92554700C1C949 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A3765C01E92554700C1C949 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A3765C11E92554700C1C949 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A3765C31E92554700C1C949 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0A3765C41E92554700C1C949 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0A3765C71E92554700C1C949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A3765C91E92554700C1C949 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A3765CC1E92554700C1C949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A3765CE1E92554700C1C949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A3765D31E92554700C1C949 /* LLYClientSocketDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLYClientSocketDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A3765D71E92554700C1C949 /* LLYClientSocketDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLYClientSocketDemoTests.m; sourceTree = "<group>"; };
+		0A3765D91E92554700C1C949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A3765DE1E92554700C1C949 /* LLYClientSocketDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLYClientSocketDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A3765E21E92554700C1C949 /* LLYClientSocketDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLYClientSocketDemoUITests.m; sourceTree = "<group>"; };
+		0A3765E41E92554700C1C949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A3765B71E92554700C1C949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A3765D01E92554700C1C949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A3765DB1E92554700C1C949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A3765B11E92554700C1C949 = {
+			isa = PBXGroup;
+			children = (
+				0A3765BC1E92554700C1C949 /* LLYClientSocketDemo */,
+				0A3765D61E92554700C1C949 /* LLYClientSocketDemoTests */,
+				0A3765E11E92554700C1C949 /* LLYClientSocketDemoUITests */,
+				0A3765BB1E92554700C1C949 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A3765BB1E92554700C1C949 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A3765BA1E92554700C1C949 /* LLYClientSocketDemo.app */,
+				0A3765D31E92554700C1C949 /* LLYClientSocketDemoTests.xctest */,
+				0A3765DE1E92554700C1C949 /* LLYClientSocketDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A3765BC1E92554700C1C949 /* LLYClientSocketDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0A3765C01E92554700C1C949 /* AppDelegate.h */,
+				0A3765C11E92554700C1C949 /* AppDelegate.m */,
+				0A3765C31E92554700C1C949 /* ViewController.h */,
+				0A3765C41E92554700C1C949 /* ViewController.m */,
+				0A3765C61E92554700C1C949 /* Main.storyboard */,
+				0A3765C91E92554700C1C949 /* Assets.xcassets */,
+				0A3765CB1E92554700C1C949 /* LaunchScreen.storyboard */,
+				0A3765CE1E92554700C1C949 /* Info.plist */,
+				0A3765BD1E92554700C1C949 /* Supporting Files */,
+			);
+			path = LLYClientSocketDemo;
+			sourceTree = "<group>";
+		};
+		0A3765BD1E92554700C1C949 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A3765BE1E92554700C1C949 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A3765D61E92554700C1C949 /* LLYClientSocketDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A3765D71E92554700C1C949 /* LLYClientSocketDemoTests.m */,
+				0A3765D91E92554700C1C949 /* Info.plist */,
+			);
+			path = LLYClientSocketDemoTests;
+			sourceTree = "<group>";
+		};
+		0A3765E11E92554700C1C949 /* LLYClientSocketDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A3765E21E92554700C1C949 /* LLYClientSocketDemoUITests.m */,
+				0A3765E41E92554700C1C949 /* Info.plist */,
+			);
+			path = LLYClientSocketDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A3765B91E92554700C1C949 /* LLYClientSocketDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A3765E71E92554700C1C949 /* Build configuration list for PBXNativeTarget "LLYClientSocketDemo" */;
+			buildPhases = (
+				0A3765B61E92554700C1C949 /* Sources */,
+				0A3765B71E92554700C1C949 /* Frameworks */,
+				0A3765B81E92554700C1C949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLYClientSocketDemo;
+			productName = LLYClientSocketDemo;
+			productReference = 0A3765BA1E92554700C1C949 /* LLYClientSocketDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A3765D21E92554700C1C949 /* LLYClientSocketDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A3765EA1E92554700C1C949 /* Build configuration list for PBXNativeTarget "LLYClientSocketDemoTests" */;
+			buildPhases = (
+				0A3765CF1E92554700C1C949 /* Sources */,
+				0A3765D01E92554700C1C949 /* Frameworks */,
+				0A3765D11E92554700C1C949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A3765D51E92554700C1C949 /* PBXTargetDependency */,
+			);
+			name = LLYClientSocketDemoTests;
+			productName = LLYClientSocketDemoTests;
+			productReference = 0A3765D31E92554700C1C949 /* LLYClientSocketDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A3765DD1E92554700C1C949 /* LLYClientSocketDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A3765ED1E92554700C1C949 /* Build configuration list for PBXNativeTarget "LLYClientSocketDemoUITests" */;
+			buildPhases = (
+				0A3765DA1E92554700C1C949 /* Sources */,
+				0A3765DB1E92554700C1C949 /* Frameworks */,
+				0A3765DC1E92554700C1C949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A3765E01E92554700C1C949 /* PBXTargetDependency */,
+			);
+			name = LLYClientSocketDemoUITests;
+			productName = LLYClientSocketDemoUITests;
+			productReference = 0A3765DE1E92554700C1C949 /* LLYClientSocketDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A3765B21E92554700C1C949 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = lly;
+				TargetAttributes = {
+					0A3765B91E92554700C1C949 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PW2BL84NY9;
+						ProvisioningStyle = Automatic;
+					};
+					0A3765D21E92554700C1C949 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PW2BL84NY9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0A3765B91E92554700C1C949;
+					};
+					0A3765DD1E92554700C1C949 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PW2BL84NY9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0A3765B91E92554700C1C949;
+					};
+				};
+			};
+			buildConfigurationList = 0A3765B51E92554700C1C949 /* Build configuration list for PBXProject "LLYClientSocketDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A3765B11E92554700C1C949;
+			productRefGroup = 0A3765BB1E92554700C1C949 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A3765B91E92554700C1C949 /* LLYClientSocketDemo */,
+				0A3765D21E92554700C1C949 /* LLYClientSocketDemoTests */,
+				0A3765DD1E92554700C1C949 /* LLYClientSocketDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A3765B81E92554700C1C949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3765CD1E92554700C1C949 /* LaunchScreen.storyboard in Resources */,
+				0A3765CA1E92554700C1C949 /* Assets.xcassets in Resources */,
+				0A3765C81E92554700C1C949 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A3765D11E92554700C1C949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A3765DC1E92554700C1C949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A3765B61E92554700C1C949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3765C51E92554700C1C949 /* ViewController.m in Sources */,
+				0A3765C21E92554700C1C949 /* AppDelegate.m in Sources */,
+				0A3765BF1E92554700C1C949 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A3765CF1E92554700C1C949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3765D81E92554700C1C949 /* LLYClientSocketDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A3765DA1E92554700C1C949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3765E31E92554700C1C949 /* LLYClientSocketDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A3765D51E92554700C1C949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A3765B91E92554700C1C949 /* LLYClientSocketDemo */;
+			targetProxy = 0A3765D41E92554700C1C949 /* PBXContainerItemProxy */;
+		};
+		0A3765E01E92554700C1C949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A3765B91E92554700C1C949 /* LLYClientSocketDemo */;
+			targetProxy = 0A3765DF1E92554700C1C949 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A3765C61E92554700C1C949 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A3765C71E92554700C1C949 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A3765CB1E92554700C1C949 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A3765CC1E92554700C1C949 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A3765E51E92554700C1C949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A3765E61E92554700C1C949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A3765E81E92554700C1C949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PW2BL84NY9;
+				INFOPLIST_FILE = LLYClientSocketDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lly.LLYClientSocketDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A3765E91E92554700C1C949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PW2BL84NY9;
+				INFOPLIST_FILE = LLYClientSocketDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lly.LLYClientSocketDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0A3765EB1E92554700C1C949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PW2BL84NY9;
+				INFOPLIST_FILE = LLYClientSocketDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lly.LLYClientSocketDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLYClientSocketDemo.app/LLYClientSocketDemo";
+			};
+			name = Debug;
+		};
+		0A3765EC1E92554700C1C949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PW2BL84NY9;
+				INFOPLIST_FILE = LLYClientSocketDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lly.LLYClientSocketDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLYClientSocketDemo.app/LLYClientSocketDemo";
+			};
+			name = Release;
+		};
+		0A3765EE1E92554700C1C949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PW2BL84NY9;
+				INFOPLIST_FILE = LLYClientSocketDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lly.LLYClientSocketDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LLYClientSocketDemo;
+			};
+			name = Debug;
+		};
+		0A3765EF1E92554700C1C949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PW2BL84NY9;
+				INFOPLIST_FILE = LLYClientSocketDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lly.LLYClientSocketDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LLYClientSocketDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A3765B51E92554700C1C949 /* Build configuration list for PBXProject "LLYClientSocketDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A3765E51E92554700C1C949 /* Debug */,
+				0A3765E61E92554700C1C949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A3765E71E92554700C1C949 /* Build configuration list for PBXNativeTarget "LLYClientSocketDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A3765E81E92554700C1C949 /* Debug */,
+				0A3765E91E92554700C1C949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A3765EA1E92554700C1C949 /* Build configuration list for PBXNativeTarget "LLYClientSocketDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A3765EB1E92554700C1C949 /* Debug */,
+				0A3765EC1E92554700C1C949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A3765ED1E92554700C1C949 /* Build configuration list for PBXNativeTarget "LLYClientSocketDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A3765EE1E92554700C1C949 /* Debug */,
+				0A3765EF1E92554700C1C949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A3765B21E92554700C1C949 /* Project object */;
+}

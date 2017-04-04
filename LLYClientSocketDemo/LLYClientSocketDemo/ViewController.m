@@ -61,7 +61,7 @@
         memset(&addr4, 0, sizeof(addr4));
         addr4.sin_len = sizeof(addr4);
         addr4.sin_family = AF_INET;
-        addr4.sin_port = htons(8888);
+        addr4.sin_port = htons(6666);
         addr4.sin_addr.s_addr = inet_addr([serverIP UTF8String]);//把字符串的地址转换为机器可识别的网络地址
 
         //把sockaddr_in结构体中的地址转换为Data
@@ -77,7 +77,6 @@
         CFRunLoopAddSource(cRunRef, sourceRef, kCFRunLoopCommonModes);
         CFRelease(cRunRef);
         CFRelease(sourceRef);
-        
         NSLog(@"start connect");
     }
 }
@@ -146,6 +145,7 @@ static void socketMessageCallBack(CFSocketRef socket, CFSocketCallBackType type,
     
 }
 
+
 - (void)readMessageLoop{
 
     while (1) {
@@ -153,9 +153,8 @@ static void socketMessageCallBack(CFSocketRef socket, CFSocketCallBackType type,
         ssize_t recvLen = recv(CFSocketGetNative(_mSocket), buffer, sizeof(buffer), 0);
         if (recvLen > 0) {
             @autoreleasepool {
-                NSString *str = @"服务器发来数据：";
                 NSData *data = [NSData dataWithBytes:buffer length:recvLen];
-                str = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+                NSString *str = [NSString stringWithFormat:@"服务器发来数据：%@",[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding]];
                 //回界面显示信息
                 dispatch_async(dispatch_get_main_queue(), ^{
                     [self ShowMsg:str];
@@ -186,10 +185,13 @@ static void socketMessageCallBack(CFSocketRef socket, CFSocketCallBackType type,
     
 }
 - (IBAction)closeServerConnectBtnClicked:(id)sender {
-    if (_mSocket) {
+    if(CFSocketIsValid(_mSocket))
+    {
+        close(CFSocketGetNative(_mSocket));//关闭socket
         CFSocketInvalidate(_mSocket);
         CFRelease(_mSocket);
     }
+
 }
 - (IBAction)sendBtnClicked:(id)sender {
     [self sendMessage];
